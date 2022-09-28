@@ -1,0 +1,36 @@
+
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int a = 3, b = 4, c = 5;
+
+  // Postfix   first value assigned and then increment
+  a = a++;
+  b = b++;
+  c = c++;
+  cout<<"Postfix values ++a\n";
+    cout<<a<<"\n";
+    cout<<b<<"\n";
+    cout<<c<<"\n";
+    cout<<"\n\n";  
+
+
+// Prefix   first value assigned and then increment
+  a = ++a;
+  b = ++b;
+  c = ++c;
+
+cout<<"Prefix values ++a\n";
+  cout << a << "\n";
+  cout << b << "\n";
+  cout << c << "\n";
+  cout << "\n\n";
+
+  cout << "September 28,2022's code\n ";
+
+  return 0;
+}
